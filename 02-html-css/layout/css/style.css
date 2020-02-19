@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+* {
+  /* helps see what is happening */
+  /* border: 1px solid green; */
+}
+
+body {
+  background-color: #222222; /* #rrggbb where F is max*/
+  margin: 0;
+  padding: 0;
+  font-family: 'Sriracha', cursive;
+}
+
+.container {
+  max-width: 960px; /* lazy way to make respoinsive web */
+  background-color: #cccccc;
+  margin: auto;
+  padding: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+nav {
+  text-align: right;
+}
+
+/* Descendent selector */
+nav a {
+  color: #cfc;
+}
+
+h1 {
+  text-align: center;
+  background-color: #222;
+  color: #ccc;
+  padding: 1em;
+}
+
+main {
+  display: inline-block;
+  width: 75%;
+}
+
+/* margin auto will only work with images if display: block */
+main img {
+  display: block;
+  margin: auto;
+}
+
+aside {
+  display: inline-block;
+  width: 21%; /* 75% + 21% === 100% */
+  vertical-align: top;
+  background-color: #cfc;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: 0 0 15px #222;
+  margin-top: 14px;
+}

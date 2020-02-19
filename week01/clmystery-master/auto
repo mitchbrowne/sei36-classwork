@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "Let's find out WHODUNIT!"
+cd mystery
+grep -i 'clue' crimescene | cat > clues
+echo '--- Potential Witnesses ---' >> clues
+grep -i 'annabel' people | grep 'F' | cat >> clues
+echo '--- Witness Interviews ---' >> clues
+echo 'Hart Place:' >> clues | head -n 40 streets/Hart_Place | tail -n 1 | cat >> clues
+echo 'Buckingham Place:' >> clues | head -n 179 streets/Buckingham_Place | tail -n 1 | cat >> clues
+echo '--- Interview Dialogue ---' >> clues
+echo 'Ms. Sun:' >> clues | cat interviews/interview-47246024 >> clues
+echo 'Ms. Church:' >> clues | 
