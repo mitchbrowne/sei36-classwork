@@ -1,0 +1,26 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  font-size: 200%;
+  background-color: #ccc;
+  padding: 1em;
+  border-radius: 0.5em;
+  transition: 2s ease-in-out;
+}
+
+header.active {
+  background-color: yellow;
+  font-size: 400%;
+}
+
+header input {
+  font-size: 100%;
+}
+
+body {
+  transition: 0.4s;
+}
