@@ -1,5 +1,6 @@
 .container {
   max-width: 960px;
+  height: 2000px;
   margin: 0 auto;
 }
 
@@ -23,4 +24,11 @@ header input {
 
 body {
   transition: 0.4s;
+}
+
+#bill {
+  width: 100px;
+  position: absolute;
+  left: 200px;
+  bottom: -10px;
 }
