@@ -1,0 +1,27 @@
+body {
+  background-color: pink;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50vw;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2em;
+  color: white;
+}
+
+a:hover {
+  color: pink;
+  background-color: white;
+}

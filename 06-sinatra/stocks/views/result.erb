@@ -1,0 +1,14 @@
+<h2><%= @result.company_name %></h2>
+<p>Ticker: <%= @result.symbol %></p>
+<p>Primary Exchange: <%= @result.primary_exchange %></p>
+<p>Latest Price: <%= @result.latest_price %></p>
+<div class="another_stock">
+<h3>Another stock?</h3>
+<form action="/result">
+  <label>
+    Stock Ticker:
+    <input type="text" name="ticker" placeholder="GOOG">
+  </label>
+  <button>See Stock Price</button>
+</form>
+</div>

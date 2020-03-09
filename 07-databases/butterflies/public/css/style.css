@@ -1,0 +1,20 @@
+body {
+  background-color: aliceblue;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.container {
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+.controls {
+  position: absolute;
+  bottom: 10vh;
+}
