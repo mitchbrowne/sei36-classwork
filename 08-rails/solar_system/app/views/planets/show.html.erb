@@ -1,0 +1,19 @@
+<h2>What up universe</h2>
+
+<h1>I'm <%= @planet.name %>!!!</h1>
+
+<%= image_tag @planet.image, :class => 'feature' if @planet.image.present? %>
+
+<ul>
+  <li>Name: <%= @planet.name %></li>
+  <li>Orbit: <%= @planet.orbit %></li>
+  <li>Diameter: <%= @planet.diameter %></li>
+  <li>Mass: <%= @planet.mass %></li>
+  <li>Moons: <%= @planet.moons %></li>
+</ul>
+
+<div class="controls">
+<%= link_to 'back', planets_path %>
+<%= link_to 'edit', edit_planet_path(@planet.id) %>
+<%= button_to 'Delete planet', planet_path(@planet.id), :method => 'delete' %>
+</div>

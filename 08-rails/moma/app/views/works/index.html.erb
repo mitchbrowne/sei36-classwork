@@ -1,0 +1,7 @@
+<h1>All Works</h1>
+
+<div class="grid_wrapper">
+  <% @works.each do |work| %>
+    <%= link_to image_tag(work.image, :class => 'thumb index_image', :alt => work.title), work_path(work) %>
+  <% end %>
+</div>

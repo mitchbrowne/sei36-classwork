@@ -1,0 +1,58 @@
+// Place all the styles related to the Artists controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+
+body {
+  background-color: #ccd;
+}
+
+.thumb {
+  height: 12em;
+}
+
+.feature {
+  max-height: 30em;
+}
+
+h1 {
+font-family: 'Courgette', cursive;
+font-size: 4em;
+text-align: center;
+}
+
+.nav_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav_link {
+  font-family: 'Courgette', cursive;
+  font-size: 1em;
+  color: rgba(0,0,70,0.9);
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
+}
+
+.div_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: inherit;
+  align-items: center;
+}
+
+.artist_wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2em;
+  justify-content: space-between;
+  width: 40em;
+  background-color: rgba(255,255,255,0.7);
+  box-shadow: 0.5em 0.5em 0 rgba(0,0,70,0.9);
+  padding: 1em;
+}

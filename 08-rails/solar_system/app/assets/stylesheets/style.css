@@ -1,0 +1,10 @@
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.feature {
+  /* width: 2000px; */
+  max-width: 100%;
+}
